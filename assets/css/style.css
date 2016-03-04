@@ -1,0 +1,550 @@
+
+html, *{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    background: #fff;
+    font: 30px sans-serif;
+
+
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    overflow-x: hidden;
+    position: relative;
+    -webkit-text-size-adjust: none;
+}
+
+
+h1{
+    font-family: Lobster;
+
+}
+h1, h2, h3, h4, h5, h6
+{
+    line-height: 1;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+    text-transform: uppercase;
+    font-family: Lobster;
+
+
+
+}
+h1, h2, h3
+{
+    font-size: 18px;
+}
+h4, h5, h6
+{
+    font-size: 16px;
+}
+p
+{
+    margin: 0 0 10px 0;
+}
+a, a:link, a:active, a:visited, a:hover
+{
+    color: inherit;
+    text-decoration: none;
+}
+
+nav:not(.mm-menu)
+{
+    display: none;
+}
+
+.header{
+    overflow:hidden;
+
+}
+.header,
+.content,
+.footer
+{
+    text-align: center;
+}
+
+
+#footer {
+    color: #9d9d9d;
+    font-family: "Lato",sans-serif;
+    font-size: 14px;
+    padding-left: 9%;
+    position: relative;
+    margin-top: 3%;
+}
+.header.fixed
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.footer.fixed
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.header a {
+    text-decoration:none;
+    font-size:30px;
+    font-weight:700;
+    display:inline-block;
+    transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    /* IE 9 */
+    -webkit-transform:rotate(90deg);
+    /* Opera, Chrome, and Safari */
+    color:white;
+    letter-spacing:-1px;
+    height:34px;
+    width:34px;
+    position: absolute;
+    top: 4%;/*0 */
+    left: 46px;/* 10 */
+    z-index: 2147483647;
+}
+/*{
+    background: center center no-repeat transparent;
+    background-image: url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADhJREFUeNpi/P//PwOtARMDHQBdLGFBYtMq3BiHT3DRPU4YR4NrNAmPJuHRJDyahEeT8Ii3BCDAAF0WBj5Er5idAAAAAElFTkSuQmCC );
+
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+}*/
+
+.content {
+    padding: 25px 50px 50px;
+}
+button {
+    color: #fff;
+    border-radius: 5px;
+    background-color: #009688;
+    cursor: pointer;
+    padding: 10px;
+    width:50px;
+}
+.image{}
+.image_heading {
+    color: #f3f3f3;
+    font-size: 46px;
+    padding-bottom: 200px;
+    padding-top: 30px;
+    line-height: 1.3;
+}
+.image_para {
+    color: #f3f3f3;
+    font-family: Lobster;
+    font-size: 20px;
+    line-height: 1.3;
+    margin-top: -10%;
+    margin-bottom: 9%;
+}
+
+.social-icon img{
+    float:left;
+
+}
+
+/*/--------------------------. Page---
+----------------------------------
+.................About-------------------*/
+
+#about{
+
+    /*background-image: url("../img/background3.jpg");
+    height: 99px;*/
+    background-color: #e4b9b9;
+    height:auto;
+}
+.about_para{
+    color: #f3f3f3;
+    font-family: Lobster;
+    font-size: 20px;
+    line-height: 1.3;
+    margin-top: 10%;
+    margin-bottom: 9%;
+    text-align:justify;
+}
+.about_heading {
+    color: #f3f3f3;
+    font-size: 46px;
+    padding-bottom: 200px;
+    padding-top: 30px;
+    line-height: 1.3;
+}
+#feature {
+    backface-visibility: hidden;
+    background: #fff url("../img/featue-bg.jpg") no-repeat fixed center center / cover ;
+    box-sizing: border-box;
+    display: block;
+    overflow: visible;
+    padding: 100px 0;
+    position: relative;
+    width: 100%;
+}
+#feature .btn-view-works {
+    background: #655e7a none repeat scroll 0 0;
+    color: #fff;
+    padding: 10px 20px;
+}
+#feature h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#feature p {
+    color: #8d8f92;
+    margin-bottom: 20px;
+}
+#about_feature{
+    margin-left: 2%;
+
+}
+#team {
+    /*background: #ddd none repeat scroll 0 0;*/
+    margin-bottom: 4%;
+    height: auto;
+
+}
+.about_team{
+    font-size: 46px;
+    padding-bottom: 3%;
+    padding-top: 30px;
+    line-height: 1.3;
+    color: #444444;
+}
+.carousel-control.left {
+    background-image: inherit;
+    background-repeat: repeat-x;
+    margin-left: 5%;
+    width: 4%;
+    margin-top: -7%;
+    text-align: center;
+}
+.carousel-control.right {
+    background-image: inherit;
+    background-repeat: repeat-x;
+    margin-right: 2%;
+    margin-top: -7%;
+    text-align: center;
+    width: 9%;
+}
+.carousel.slide img {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+
+/*--------------team-----*/
+
+.team .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 73%;
+    background-color:rgba(255, 255, 255, 0.9);
+    opacity:.0;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-transition: opacity 300ms;
+    -moz-transition: opacity 300ms;
+    -o-transition: opacity 300ms;
+    transition: opacity 300ms;
+    text-align: center;
+    display: block;
+}
+/*.team .overlay .preview {
+    border: 27px none;
+    color: blue;
+    display: inline-block;
+    font-size: 44px;
+    margin-top: -20px;
+    position: relative;
+    top: 44%;
+}*/
+.team:hover .overlay {
+    opacity: 1;
+}
+.team ul {
+    padding:0;
+    position:relative;
+    top:100px;
+}
+.team ul li {
+    display: inline-block;
+    float: none;
+    list-style: outside none none;
+    padding-left: 0;
+    width: 50px;
+}
+
+.team span, .team a {
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 44px;
+}
+.team span:hover,
+.team a:hover {
+    color:#204d74;
+}
+.our-team-text {
+    margin-left: 3%;
+}
+/*team ends--*/
+/*........................Expertise part........--*/
+
+#expertise {
+
+    background: rgba(0, 0, 0, 0) url("../img/skill-backgrounds.jpg") no-repeat fixed center center / cover;
+    height: auto;
+    padding: 70px 0 50px;
+    text-align: center;
+    width: 100%;
+}
+#expertise h1{
+    margin-bottom: 6%;
+}
+.expertise_progress{
+    text-transform: uppercase;
+
+}
+/*........................Expertise part..... ends...--*/
+
+
+/*-------service PAge---------start-----------------
+----------------------------------------------------------*/
+
+
+#content_service{
+    backface-visibility: hidden;
+    background: #fff url("../img/serviceBanner.jpg") no-repeat fixed center center / cover ;
+    box-sizing: border-box;
+    display: block;
+    overflow: visible;
+    padding: 100px 0;
+    position: relative;
+    width: 100%;
+}
+.service{
+    text-align: left;
+    color: #f3f3f3;
+    font-size: 46px;
+    margin-bottom: 12%;
+    line-height: 1.3;
+
+}
+.service_heading{
+    text-align: center;
+    color: #000;
+    font-size: 46px;
+margin-bottom: 4%;
+    line-height: 1.3;
+
+}
+.icon{ display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    width: 143px;
+    height:143px;
+}
+.main_company h3 {
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    margin: 2%;
+    text-align: center;
+
+}
+.main_company p {
+    margin-left: 3%;
+    margin-top: 1%;
+    text-align:justify;
+}
+
+
+.main_company img{
+    text-align: center;
+    margin-bottom: 9%;
+}
+/*-------service PAge---------ends-----------------
+----------------------------------------------------------*/
+
+/*-------pricing table   PAge---------start-----------------
+----------------------------------------------------------*/
+#pricing{
+    margin-bottom: 4%;
+}
+#pricing h1{
+    text-align: center;
+    font-size: 46px;
+    overflow: hidden;
+
+}
+
+#pricing p {
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+/*-------service PAge---------ends-----------------
+----------------------------------------------------------*/
+
+/*------clents PAge---------starts-----------------
+----------------------------------------------------------*/
+
+
+.clients {
+    color: #f3f3f3;
+    font-size: 46px;
+    line-height: 1.3;
+    margin-bottom: 4%;
+    margin-right: 18%;
+    text-align: center;
+}
+#clients{
+    background-color: #f9f9f9;
+    margin-top: -3%;
+}
+#Quote{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.clients-quote{
+    font-size: 40px;
+    line-height: 1.3;
+    margin-bottom: 4%;
+    margin-right: 18%;
+    text-align: center;
+    color: #444444;
+}
+
+/*-------clients PAge---------ends-----------------
+----------------------------------------------------------*/
+
+
+
+/*------contact PAge---------starts---------------
+----------------------------------------------------------*/
+
+
+
+#contact img{
+     height: auto;
+     width: 100%;
+
+
+}
+.contact-form{
+            width: auto;
+}
+
+.cdiv{
+    padding-bottom: 7%;
+}
+.cform{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.link {
+    border-bottom: 2px dotted #55acee;
+    text-decoration: none;
+    color: #55acee;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+}
+
+.link:hover {
+    color: #2ecc71;
+    border-bottom: 2px dotted #2ecc71;
+}
+
+
+/* css for the shiny buttons */
+
+.btn {
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 22px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    display: inline-block;
+}
+
+.btn:hover {
+    cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto;
+}
+
+
+.red {
+    color: #e74c3c;
+    border: 2px #e74c3c solid;
+}
+
+.red:hover {
+    color: #fff;
+    background-color: #e74c3c;
+}
+
+
+
+
+
+/*------contact PAge---------ends--------------
+----------------------------------------------------------*/
+/*-----wedding photography PAge--------starts--------------
+----------------------------------------------------------*/
+
+
+
+.wedding h1{
+
+
+    font-size: 46px;
+    line-height: 1.3;
+    margin-bottom: 4%;
+    margin-right: 18%;
+    text-align: center;
+
+
+}
+/*-------wedding photography PAge--------ends------------
+----------------------------------------------------------*/
+
+/*------wild photography PAge-------start-----------
+----------------------------------------------------------*/
+
+
+.wild h1,.nature h1,.others h1{
+
+    font-size: 46px;
+    line-height: 1.3;
+    margin-bottom: 4%;
+    margin-right: 18%;
+    text-align: center;
+    color: #fff;
+}
+
+/*-------wild photography PAge--------ends------------
+----------------------------------------------------------*/

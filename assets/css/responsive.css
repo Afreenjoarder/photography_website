@@ -1,0 +1,178 @@
+@media (max-width: 766px) {
+    .header a {
+        color: white;
+        display: inline-block;
+        font-size: 30px !important;
+        font-weight: 700;
+        height: 34px;
+        left: 12px;
+        letter-spacing: -1px;
+        position: absolute;
+        text-decoration: none;
+        top: 2%;
+        transform: rotate(90deg);
+        width: 34px;
+        z-index: 2147483647;
+    }
+
+    .image_heading {
+        color: #f3f3f3;
+        font-size: 28px;
+
+        line-height: 1.3;
+    }
+    .about_heading {
+        color: #f3f3f3;
+        font-size: 46px;
+        padding-bottom: 0;
+        padding-top: 0;
+        line-height: 1.3;
+    }
+
+    .image_para{
+
+        font-size: 17px;
+
+    }
+   /* html,*{
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }*/
+
+    .social .fa {
+
+        border-radius: 35px;
+
+        font-size: 20px;
+        height: 55px;
+        line-height: 50px;
+
+        width: 53px;
+    }
+
+    /*.social .fa {
+        border-radius: 34px;
+        font-size: 19px;
+        height: 51px;
+        line-height: 53px;
+        width: 52px;
+    }*/
+    .foo_icon {
+        margin-left: 0;
+        padding: 0;
+    }
+    .image_para {
+
+        margin-top: -60%;
+
+    }
+    .team .overlay {
+
+        height: 83%;
+
+    }
+    .team ul {
+        top: 50%;
+        text-align: center;
+    }
+    .progress-bar {
+        margin-left: 6%;
+        width: 300px;
+    }
+    .service_heading {
+
+        font-size: 22px;
+
+    }
+    .pricing_table_wdg ul {                             /*---------------------pricing table---------------------*/
+        margin-left: 26%;
+    }
+    /*----------------------quota cariusel-----------------------*/
+    .carousel-inner_quote {
+        margin-left: 7%;
+
+        text-align: justify;
+        width: 85%;
+    }
+    .item blockquote small {
+        margin-bottom: 89%;
+    }
+    #quote-carousel .carousel-indicators {
+
+        display: inline-flex;
+
+    }
+    #quote-carousel .carousel-indicators li{
+        width: 10px;
+        height: 1px;
+    }
+    .clients-quote{
+        font-size: 19px;
+    }
+    .carousel-control.left {
+        margin-top: 33%!important;
+    }
+    .carousel-control.right {
+        margin-top: 33%!important;
+    }
+
+    /*----------------------quota cariusel-----------------------*/
+
+    .wedding h1{
+        font-size: 30px;
+    }
+    .wild h1,.nature h1,.others h1{
+
+        font-size: 30px;
+
+    }
+    /*--------------------portfolio-------------------*/
+    .title {
+        margin: 30% 11% 14%;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (min-width:780px)and (max-width: 991px) {
+
+    #about{
+        height:auto;
+    }
+
+}
+@media (min-width:767px)and (max-width: 991px){
+    .team .overlay {
+
+        height: 60%;
+
+    }
+    .team ul {
+        top: 30%;
+        text-align: center;
+    }
+    .team span, .team a {
+        font-size: 36px;
+    }
+    .carousel-control.left {
+        text-align: center;
+        margin-top: -13%;
+    }
+    .carousel-control.right {
+        text-align: center;
+        margin-top: -13%;
+    }
+    .ch-grid li {                             /*-------------------Animation img----------------*/
+        display: inline-block;
+        height: 220px;
+        margin: 2%;
+        width: 220px;
+    }
+}
+
+@media (min-width:992px){           /*-------------------Animation img----------------*/
+    .ch-grid li {
+
+        margin-left: 10%;
+    }
+}

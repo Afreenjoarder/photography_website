@@ -1,0 +1,60 @@
+  <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+
+                    </ol>
+                    <div class="col-sm-3 col-md-3">
+                        <div class="thumbnail">
+                            <img src="assets/img/project1.jpg" class="img-responsive"   alt="Responsive image">
+                            <div class="caption">
+                                <strong>Praesent vestibulum</strong>
+                                <p>Lorem ipsum dolor</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3">
+                        <div class="thumbnail">
+                            <img src="assets/img/project1.jpg" class="img-responsive"   alt="Responsive image">
+                            <div class="caption">
+                                <strong>Praesent vestibulum</strong>
+                                <p>Lorem ipsum dolor</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3">
+                        <div class="thumbnail">
+                            <img src="assets/img/project1.jpg" class="img-responsive"   alt="Responsive image">
+                            <div class="caption">
+                                <strong>Praesent vestibulum</strong>
+                                <p>Lorem ipsum dolor</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3">
+                        <div class="thumbnail">
+                            <img src="assets/img/project1.jpg" class="img-responsive"   alt="Responsive image">
+                            <div class="caption">
+                                <strong>Praesent vestibulum</strong>
+                                <p>Lorem ipsum dolor</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    cb-fsss.min.js ar height ta change hba
+
+
+
+
+                     <div class="col-md-6">
+                                <h1 class="image_heading"><em>ABOUT US</em></h1>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="about_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            </div>
